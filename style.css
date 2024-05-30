@@ -1,0 +1,55 @@
+body{
+ background-color: gray;
+ place-items: center;
+ display: flex;
+ justify-content:center ;
+ height: 100vh ;
+
+}
+
+
+
+
+
+.Card{
+    width: 500px ;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 #000 ;
+    margin: auto;
+
+}
+h1{
+    font-size: 30px;
+}
+
+p{
+    color: gray;
+    font-size: 24px;
+}
+
+button{
+    background-color: #000;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+button a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif
+}
+
+a{
+    color: #000;
+    font-size: 30px;
+    padding: 5px;
+}
